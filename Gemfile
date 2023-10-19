@@ -46,3 +46,8 @@ group :development do
 
 end
 
+gem 'graphql'
+group :development do
+  gem 'graphiql-rails'
+  gem 'sass-rails'
+end
